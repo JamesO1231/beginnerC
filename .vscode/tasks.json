@@ -11,7 +11,7 @@
                 "-g",
                 "-o",
                 "helloWorld",
-                "sampleApp/variables.c"
+                "sampleApp/ints.c"
             ],
             "group": {
                 "kind": "build",
