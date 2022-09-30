@@ -11,7 +11,7 @@
                 "-g",
                 "-o",
                 "helloWorld",
-                "sampleApp/formatSpec.c"
+                "sampleApp/commandArg.c"
             ],
             "group": {
                 "kind": "build",
