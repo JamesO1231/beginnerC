@@ -11,7 +11,7 @@
                 "-g",
                 "-o",
                 "helloWorld",
-                "challenges/printRectangle.c"
+                "challenges/enumType.c"
             ],
             "group": {
                 "kind": "build",
