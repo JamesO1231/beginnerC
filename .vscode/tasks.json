@@ -11,7 +11,7 @@
                 "-g",
                 "-o",
                 "helloWorld",
-                "challenges/enumType.c"
+                "sampleApp/basicOperators.c"
             ],
             "group": {
                 "kind": "build",
