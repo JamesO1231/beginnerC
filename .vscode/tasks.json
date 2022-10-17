@@ -11,7 +11,7 @@
                 "-g",
                 "-o",
                 "helloWorld",
-                "sampleApp/basicOperators.c"
+                "sampleApp/bitwiseOperators.c"
             ],
             "group": {
                 "kind": "build",
