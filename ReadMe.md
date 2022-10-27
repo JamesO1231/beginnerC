@@ -31,3 +31,10 @@
 * << Binary left shift operator. The left operands value is moved left by the number of bits specified by the right operand. A << 2 = 240 i.e. 1111 0000
 * ... >> Binary Right shift operator. The left operands value is moved right by the number of bits specified by the right operand. A >> 2 = 15 i.e. 0000 1111
 
+## sizeof operator and other operators
+
+* sizeof(int) will result in the number of bytes occupied by a variable of type int
+    * sizeof in an expression - result is the size of value that results from evaluating the expression
+    * Use size of whenever possible to avoid having to calculate and hard-code size into your program 
+* the astrisk "*" operator represents a pointer. See pointers for more
+* ? ternary operator see pointers for more detail 
