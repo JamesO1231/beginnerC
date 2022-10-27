@@ -29,4 +29,5 @@
 * ^ Binary XOR operator copies the bit if it is set in one operand but not both. (A ^ B) = 49, i.e. 0011 0001
 * ~ Binary ones complement operator is unary and has the effect of 'flipping' bits. (~A) = -61, i.e. 1100 0011 in 2's complement form
 * << Binary left shift operator. The left operands value is moved left by the number of bits specified by the right operand. A << 2 = 240 i.e. 1111 0000
-* >> Binary Right shift operator. The left operands value is moved right by the number of bits specified by the right operand. A >> 2 = 15 i.e. 0000 1111
+* .>> Binary Right shift operator. The left operands value is moved right by the number of bits specified by the right operand. A >> 2 = 15 i.e. 0000 1111
+
