@@ -46,3 +46,25 @@
     * Use size of whenever possible to avoid having to calculate and hard-code size into your program 
 * the astrisk "*" operator represents a pointer. See pointers for more
 * ? ternary operator see pointers for more detail 
+* Operator Precedence, the order of executing the various operations can make a deference, C needs unambiguous rules for choosing what to do first. 
+    * for example, in x = 7 + 3 * 2, x is assigned 13 not 20 because operator * has a higher precedence than the +
+    * multiplication and division have higher precedence then addition and subtraction. 
+    * () is how you get around that. Whatever is enclosed in () is executed first. You should always use parentheses to group expressions.
+* Associativity, if two operators have the same precedence the associativity rules apply.
+    * If they have the same operand, they are executed according to the order in wih they occur in the statement. For most operators the order is from left to right.
+* Operator Priority (Highest - Lowest precedence) 
+    * Postfix Operators, () [] - > . ++ -- (left to right) 
+    * Unary Operators, + - ! ~ ++ --(type)*&sizeof (right to left)
+    * Multiplicative Operators, * / % (left to right)
+    * Additive Operators, + - (left to right)
+    * Shift Operators, <<>> (left to right)
+    * Relational Operators, <<= >>= (left to right)
+    * Equality Operators, == != (left to right)
+    * Bitwise AND, & 
+    * Bitwise XOR, ^
+    * Bitwise OR, | 
+    * Logical AND, && 
+    * Logical OR, || 
+    * Conditional, ? : (Right to left)
+    * Assignment, = += -= *= /= %= >>= <<= &= ^= |= (Right to left)
+    * Comma, , 
