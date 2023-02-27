@@ -60,11 +60,11 @@
     * Shift Operators, <<>> (left to right)
     * Relational Operators, <<= >>= (left to right)
     * Equality Operators, == != (left to right)
-    * Bitwise AND, & 
-    * Bitwise XOR, ^
-    * Bitwise OR, | 
-    * Logical AND, && 
-    * Logical OR, || 
+    * Bitwise AND, & (left to right)
+    * Bitwise XOR, ^ (left to right)
+    * Bitwise OR, | (left to right)
+    * Logical AND, && (left to right)
+    * Logical OR, || (left to right)
     * Conditional, ? : (Right to left)
     * Assignment, = += -= *= /= %= >>= <<= &= ^= |= (Right to left)
-    * Comma, , 
+    * Comma, , (left to right)
