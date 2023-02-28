@@ -11,7 +11,7 @@
                 "-g",
                 "-o",
                 "helloWorld",
-                "./challenges/convertTime.c"
+                "./challenges/printByte.c"
             ],
             "group": {
                 "kind": "build",
